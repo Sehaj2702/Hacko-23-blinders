@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  {% load static %}
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>No-Quibble</title>
+        <link rel="stylesheet" href="{% static "complaintboard/stylesheet.css" %}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <style>
+          a:link {
+            color:white;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          a:visited {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          a:hover {
+            color:white;
+            background-color: transparent;
+            text-decoration: underline;
+          }
+          a:active {
+            color: goldenrod;
+            background-color: transparent;
+            text-decoration: underline;
+          }
+          </style>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <hr>
+        <div class="search_bar">
+          <img src="{% static "complaintboard/logo.png" %}" style="float: left;" width="120px">
+          <h3 style="float: left;padding-right:760px;">NoQuibble</h3>
+            <button href="#" class="btn btn-primary"><a href="login.html">Login</a></button>
+            <button href="#" class="btn btn-primary"><a href="signup.html">Sign Up</a></button>
+            <button href="#" class="btn btn-primary"><a href="fac.html">Faculty Registration</a></button>
+            <button href="#" class="btn btn-primary"><a href="signup.html">Register a Complaint</a></button>
+      </div>
+        <hr>
+        <div class="block1">
+        <div class="header">
+            <img src = "{% static "complaintboard/complaint.png" %}" style="height: 500px;">
+            <h1 style="text-align:center;position: relative;padding-top: 100px;padding-bottom: 20px;font-size: 40px;font-family: fantasy; ">"The place where your concerns<br>really matter."</h1>
+            <p style="text-align:center;font-size: 20px;padding-bottom:20px;">We like to think of ourselves as a virtual conference room where<br>constructive conversations happen between you and authorities</p>
+            
+        </div>
+    </div>
+        <hr>
+        <div class="main">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Register Your Complaint
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first step.<br></strong>You have to register on the site to make your complaint under consideration.Just click on SignUp, it will redirect to a page where you are required to fill necessary details.After clicking on  SUBMIT button, you will be redirected to home page where you have to click on "Start a Complaint".<code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Wait for verification
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>When you have entered your complaint:<br></strong>Click on Submit button and wait for verification, verification is done by authorities so it takes some time, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Check your Timeline
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>When your complaint is verified:<br></strong>After getting verified you can click on "mycomplaints" and see live time updates of solution to your complaint, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <h4>
+              Our Developers Team:
+            </h4>
+            <div class="mem">
+            <ul>
+              <li>
+                Anant Mishra
+              </li>
+              <li>
+                Gursehajbir Singh
+              </li>
+              <li>
+                Sailish
+              </li>
+              <li>
+                Saket
+              </li>
+              <li>
+                Sahil
+              </li>
+            </ul>
+          </div>
+        </div>
+    </body>
+</html>
