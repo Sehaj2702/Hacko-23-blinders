@@ -1,0 +1,35 @@
+
+.header{
+    height:500px;
+    background-color: white;
+    border:1px solid black;
+}
+.header img{
+    
+    padding:20px;
+    padding-left:10px;
+    height:450px;
+    float:left;
+}
+.header h1{
+    font-size:xx-large;
+    padding-left:400px;
+
+}
+.block1{
+    padding:50px 100px;
+    background-color: navy;
+}
+.something{
+    align-self: center;
+}
+html{
+    background-color: navy;
+}
+.main{
+    padding:50px 100px;
+    background-color: navy;
+}
+.footer{
+    padding-bottom:20px;
+}
